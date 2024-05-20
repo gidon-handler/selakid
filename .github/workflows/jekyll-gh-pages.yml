@@ -1,5 +1,0 @@
-            - name: Angular Github Actions
-  # You may pin to the exact commit or the version.
-  # uses: mayurrawte/github-angular-actions@54f2c8973b0c096a47a02b72d39758d29dd08e2b
-  uses: mayurrawte/github-angular-actions@v1.1.0
-          
