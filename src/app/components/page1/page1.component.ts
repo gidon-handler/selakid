@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
 
 @Component({
   selector: 'app-page1',
   standalone: true,
-  imports: [],
+  imports: [MatFormFieldModule, MatSelectModule],
   templateUrl: './page1.component.html',
   styleUrl: './page1.component.scss'
 })

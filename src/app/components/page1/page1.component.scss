@@ -1,0 +1,23 @@
+:host{
+    background-image: url(/assets/gg_tran.png);
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #d8b2fc;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 89%;
+    justify-content: flex-end;
+}
+mat-form-field{
+    opacity: .6;
+    &:focus-within{
+        opacity: 1;
+    }
+}
