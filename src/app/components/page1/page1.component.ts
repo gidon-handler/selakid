@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 
@@ -10,5 +10,5 @@ import {MatSelectModule} from '@angular/material/select';
   styleUrl: './page1.component.scss'
 })
 export class Page1Component {
-
+  @HostBinding('style') bg = "background-image: url(/assets/gg_tran.png)";
 }
