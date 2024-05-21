@@ -10,5 +10,5 @@ import {MatSelectModule} from '@angular/material/select';
   styleUrl: './page1.component.scss'
 })
 export class Page1Component {
-  @HostBinding('style') bg = "background-image: url(/assets/gg_tran.png)";
+  @HostBinding('style') bg = "background-image: url('assets/gg_tran.png')";
 }
