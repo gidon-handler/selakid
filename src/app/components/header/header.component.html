@@ -1,13 +1,18 @@
 <mat-toolbar>
 
   <img src="assets/sela_logo.webp" alt="" width="125">
-  &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
   <span routerLink="/">SELAKID</span>
   
-  <button mat-icon-button>
-    <mat-icon>favorite</mat-icon>
-  </button>
-  <button mat-icon-button>
+  <select (change)="go($event.target)">
+    <option value="home">Home</option>
+    <option value="page1">Questions</option>
+    <option value="info">Info</option>
+  </select>
+  
+  <button mat-icon-button routerLink="info">
     <mat-icon>share</mat-icon>
   </button>
+
 </mat-toolbar>
+
